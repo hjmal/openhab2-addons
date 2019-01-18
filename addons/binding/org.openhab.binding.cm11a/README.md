@@ -78,8 +78,8 @@ Bridge cm11a:cm11a:MyCm11a  [ serialPort="COM3" ] {
 ### Items
 
 ```java
-SwitchA1  "Kitchen Plug"   <light>  (someGroup)  { channel="cm11a:switch:MyCm11a:SwitchA1:switchstatus" }
-DimmerA2  "Porch lights"   <slider> (someGroup)  { channel="cm11a:dimmer:MyCm11a:DimmerA2:lightlevel" }
+switch SwitchA1  "Kitchen Plug"   <light>  (someGroup)  { channel="cm11a:switch:MyCm11a:SwitchA1:switchstatus" }
+dimmer DimmerA2  "Porch lights"   <slider> (someGroup)  { channel="cm11a:dimmer:MyCm11a:DimmerA2:lightlevel" }
 ```
 
 ## Known issues
